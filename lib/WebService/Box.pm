@@ -11,7 +11,7 @@ use Types::Standard qw(Str Int);
 
 use WebService::Box::Session;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 has api_url    => (is => 'ro', isa => Str, required => 1, default => sub{ "" } );
 has upload_url => (is => 'ro', isa => Str, required => 1, default => sub{ "" } );
@@ -84,7 +84,7 @@ WebService::Box - manage your documents on Box.com
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

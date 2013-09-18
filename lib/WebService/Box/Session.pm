@@ -87,7 +87,7 @@ WebService::Box::Session - A session for WebService::Box
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 
